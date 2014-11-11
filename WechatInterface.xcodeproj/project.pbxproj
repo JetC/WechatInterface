@@ -84,14 +84,14 @@
 		DF59A6D119E6BBF300D1CF0A /* WechatInterface */ = {
 			isa = PBXGroup;
 			children = (
+				DF59A6E219E6BBF300D1CF0A /* Images.xcassets */,
+				DF59A6DF19E6BBF300D1CF0A /* Main.storyboard */,
 				DF59A6D619E6BBF300D1CF0A /* AppDelegate.h */,
 				DF59A6D719E6BBF300D1CF0A /* AppDelegate.m */,
 				DF59A6D919E6BBF300D1CF0A /* FirstViewController.h */,
 				DF59A6DA19E6BBF300D1CF0A /* FirstViewController.m */,
 				DF59A6DC19E6BBF300D1CF0A /* SecondViewController.h */,
 				DF59A6DD19E6BBF300D1CF0A /* SecondViewController.m */,
-				DF59A6DF19E6BBF300D1CF0A /* Main.storyboard */,
-				DF59A6E219E6BBF300D1CF0A /* Images.xcassets */,
 				DF59A6E419E6BBF300D1CF0A /* LaunchScreen.xib */,
 				DF59A6D219E6BBF300D1CF0A /* Supporting Files */,
 			);
@@ -420,6 +420,7 @@
 				DF59A6F719E6BBF300D1CF0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF59A6F819E6BBF300D1CF0A /* Build configuration list for PBXNativeTarget "WechatInterfaceTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				DF59A6FA19E6BBF300D1CF0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
