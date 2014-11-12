@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		DF59A6D519E6BBF300D1CF0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF59A6D419E6BBF300D1CF0A /* main.m */; };
 		DF59A6D819E6BBF300D1CF0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF59A6D719E6BBF300D1CF0A /* AppDelegate.m */; };
-		DF59A6DB19E6BBF300D1CF0A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF59A6DA19E6BBF300D1CF0A /* FirstViewController.m */; };
-		DF59A6DE19E6BBF300D1CF0A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF59A6DD19E6BBF300D1CF0A /* SecondViewController.m */; };
 		DF59A6E119E6BBF300D1CF0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF59A6DF19E6BBF300D1CF0A /* Main.storyboard */; };
 		DF59A6E319E6BBF300D1CF0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF59A6E219E6BBF300D1CF0A /* Images.xcassets */; };
 		DF59A6E619E6BBF300D1CF0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF59A6E419E6BBF300D1CF0A /* LaunchScreen.xib */; };
 		DF59A6F219E6BBF300D1CF0A /* WechatInterfaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF59A6F119E6BBF300D1CF0A /* WechatInterfaceTests.m */; };
+		DF86FEB81A13368300275F92 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF86FEB71A13368300275F92 /* ChatViewController.m */; };
+		DF86FEBE1A133FDF00275F92 /* ChatDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF86FEBD1A133FDF00275F92 /* ChatDetailViewController.m */; };
+		DF86FEC11A13419600275F92 /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF86FEC01A13419600275F92 /* ChatTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +34,18 @@
 		DF59A6D419E6BBF300D1CF0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF59A6D619E6BBF300D1CF0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF59A6D719E6BBF300D1CF0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF59A6D919E6BBF300D1CF0A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		DF59A6DA19E6BBF300D1CF0A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		DF59A6DC19E6BBF300D1CF0A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		DF59A6DD19E6BBF300D1CF0A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		DF59A6E019E6BBF300D1CF0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF59A6E219E6BBF300D1CF0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DF59A6E519E6BBF300D1CF0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DF59A6EB19E6BBF300D1CF0A /* WechatInterfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WechatInterfaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF59A6F019E6BBF300D1CF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF59A6F119E6BBF300D1CF0A /* WechatInterfaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WechatInterfaceTests.m; sourceTree = "<group>"; };
+		DF86FEB61A13368300275F92 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		DF86FEB71A13368300275F92 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		DF86FEBC1A133FDF00275F92 /* ChatDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDetailViewController.h; sourceTree = "<group>"; };
+		DF86FEBD1A133FDF00275F92 /* ChatDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDetailViewController.m; sourceTree = "<group>"; };
+		DF86FEBF1A13419600275F92 /* ChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
+		DF86FEC01A13419600275F92 /* ChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +91,12 @@
 				DF59A6DF19E6BBF300D1CF0A /* Main.storyboard */,
 				DF59A6D619E6BBF300D1CF0A /* AppDelegate.h */,
 				DF59A6D719E6BBF300D1CF0A /* AppDelegate.m */,
-				DF59A6D919E6BBF300D1CF0A /* FirstViewController.h */,
-				DF59A6DA19E6BBF300D1CF0A /* FirstViewController.m */,
-				DF59A6DC19E6BBF300D1CF0A /* SecondViewController.h */,
-				DF59A6DD19E6BBF300D1CF0A /* SecondViewController.m */,
+				DF86FEB61A13368300275F92 /* ChatViewController.h */,
+				DF86FEB71A13368300275F92 /* ChatViewController.m */,
+				DF86FEBC1A133FDF00275F92 /* ChatDetailViewController.h */,
+				DF86FEBD1A133FDF00275F92 /* ChatDetailViewController.m */,
+				DF86FEBF1A13419600275F92 /* ChatTableViewCell.h */,
+				DF86FEC01A13419600275F92 /* ChatTableViewCell.m */,
 				DF59A6E419E6BBF300D1CF0A /* LaunchScreen.xib */,
 				DF59A6D219E6BBF300D1CF0A /* Supporting Files */,
 			);
@@ -224,10 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF59A6DE19E6BBF300D1CF0A /* SecondViewController.m in Sources */,
 				DF59A6D819E6BBF300D1CF0A /* AppDelegate.m in Sources */,
-				DF59A6DB19E6BBF300D1CF0A /* FirstViewController.m in Sources */,
 				DF59A6D519E6BBF300D1CF0A /* main.m in Sources */,
+				DF86FEC11A13419600275F92 /* ChatTableViewCell.m in Sources */,
+				DF86FEB81A13368300275F92 /* ChatViewController.m in Sources */,
+				DF86FEBE1A133FDF00275F92 /* ChatDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
